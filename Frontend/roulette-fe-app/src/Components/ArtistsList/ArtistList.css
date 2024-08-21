@@ -1,0 +1,67 @@
+.song-and-artist {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #fffff6;
+}
+.list-container {
+    padding: 20px;
+    font-size: 30px;
+    width: 50%;
+    color: #333;
+}
+.button-and-artist-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+    padding-bottom: 10px;
+    height: 30px;
+    margin-top: 10px;
+}
+.remove-button {
+    background-color: #f44336;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 8px;
+}
+.remove-button:hover {
+    background-color: #d32f2f;
+}
+.add-fields {
+    margin: 20px;
+    height: 30px;
+    background-color: #fafafa;
+    border: 2px solid #ddd;
+    padding: 5px 10px;
+    width:calc(100%-84px);
+    border-radius: 5px;
+}
+.add-artist-and-song-btn {
+    background-color: #145a0f;
+    font-size: 20px;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 8px;
+
+}
+.song {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    height: 30px;
+    margin-top: 10px;
+
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "model": "rouletteBackend.artist",
+        "pk": 1,
+        "fields": {
+            "name": "Freddy Mercury"
+        }
+    },
+    {
+        "model": "rouletteBackend.artist",
+        "pk": 2,
+        "fields": {
+            "name": "John Mayer"
+        }
+    },
+    {
+        "model": "rouletteBackend.song",
+        "pk": 1,
+        "fields": {
+            "title": "Bohemian Rhapsody",
+            "artist": 1
+        }
+    },
+    {
+        "model": "rouletteBackend.song",
+        "pk": 2,
+        "fields": {
+            "title": "Gravity",
+            "artist": 2
+        }
+    }
+]
